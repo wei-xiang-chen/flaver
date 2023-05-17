@@ -1,0 +1,19 @@
+{
+  "name": "flaver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "fmt": "npx prettier --write ./migrations",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "migrate:local": "knex --env local --knexfile ./migrations/knex/knexfile.ts migrate:latest",
+    "rollback:local": "knex --env local --knexfile ./migrations/knex/knexfile.ts  migrate:rollback",
+    "seed:local": "knex --env local --knexfile ./migrations/knex/knexfile.ts seed:run"
+  },
+  "author": "",
+  "license": "ISC"
+}

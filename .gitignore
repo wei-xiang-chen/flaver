@@ -1,0 +1,11 @@
+﻿.history
+log
+migrations/knex/node_modules
+.DS_Store
+config.yaml
+flaver
+flaver-dev-firebase-adminsdk-vo13e-909b842ea1.json
+flaver-firebase-credential.json
+flaver-gcs-credential.json
+latest_log
+__debug_bin.exe
